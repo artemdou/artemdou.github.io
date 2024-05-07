@@ -64,6 +64,8 @@ To better understand why exactly more gun incidents occur in these areas, we nee
 The data reveals that while shootings in New York City have generally declined, the abrupt spike in 2020 underscores the significant socio-economic impact of the COVID-19 pandemic and widespread unrest. The data also highlights a persistent correlation between gun violence and economically disadvantaged communities, particularly affecting minority populations. Addressing this issue requires a concerted focus on alleviating economic disparities to break the cycle of violence and foster safer neighborhoods.
 </div>
 
+<hr>
+
 ### References
   <ol>
     <li id="ref1">Boman, J.H. and Gallupe, O., 2020. Has COVID-19 changed crime? Crime rates in the United States during the pandemic. American journal of criminal justice, 45, pp.537-545.</li>
