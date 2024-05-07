@@ -71,8 +71,8 @@ The data reveals that while shootings in New York City have generally declined, 
   </ol>
 
 ### Dataset Utilized
-1. <a href="(https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data)">NYPD Shooting Incident Data (Historic)</a>
-2. <a href="(https://trends.google.com/trends/explore?cat=16&date=2020-01-01%202020-12-31&geo=US-NY-501&q=layoffs)">Google Trends: Layoffs 2020</a>
+1. <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data">NYPD Shooting Incident Data (Historic)</a>
+2. <a href="https://trends.google.com/trends/explore?cat=16&date=2020-01-01%202020-12-31&geo=US-NY-501&q=layoffs">Google Trends: Layoffs 2020</a>
 
 
 ### Explainer notebook
