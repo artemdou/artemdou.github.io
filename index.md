@@ -15,13 +15,11 @@ layout: default
 
 ### 2020: A Time of Generalized Unrest
 
-<iframe src="/data/carousel.html" width="100%" height="600px"></iframe>
-
 
 <div style="text-align: justify;">
 Taking a closer look at <b>2020</b> and comparing it to previous years, we observe that it follows a similar <b>seasonal pattern</b>, with a bell curve peaking in the summer months. However, the increase in 2020 was notably <b>abrupt</b>. The unique circumstances of 2020, marked by the COVID-19 <b>pandemic</b> and the <b>Black Lives Matter protests</b> in th US, set it apart as a highly unusual year. Notably, the first significant <b>rise</b> in shootings occurred in <b>March</b>, coinciding with the initial COVID-19 <b>lockdown</b> and the murder of <b>George Floyd</b>. The year 2021 saw a continuation and aftermath of this spike, whereas by 2022, shooting incidents had returned to average levels.
 </div>
-<br>
+<iframe src="/data/carousel.html" width="100%" height="600px"></iframe>
 <div style="text-align: justify;">
 To explore whether the <b>Black Lives Matter</b> protests <b>influenced</b> the levels of gun violence, we examined the <b>racial distribution of shooting victims</b>. Despite the exponential increase in shooting incidents, this distribution remained <b>consistent with previous years</b>, suggesting that while the protests may have contributed to overall unrest, the surge in shootings was <b>not racially motivated</b>.
 </div>
