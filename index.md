@@ -23,12 +23,16 @@ Taking a closer look at <b>2020</b> and comparing it to previous years, we obser
 
 
 
-## Shootings Accross the Different Neighborhoods: A Socio-Economic View
+## Shootings Hotspots Accross Time: A Socio-Economic View
 
-### Shooting "Hotspots" Accross Time
+Even though we have concluded that the spike of 2020 was an once-off extreme occurrence it still brough to light t the tight relation between the economical situation of the population and serious crime occurrences. When gun violence rose to these unprecedented levels the least privileged members of the city's landscape were gravelly and irreparably affected, allowing us to draw a generalized correlation between the financial and social conditions of a community and the number of shooting incidents within it. 
+
+The figure bellow showcases how the concentration of these incidents remains quite stable over the years for some specific police precincts of Bronx, Brooklyn and Queens, communities known for their great minority populations concentration.
 
 <iframe src="/data/maps/maps.html" width="100%" height="600px"></iframe>
 
-### Shootings, Poverty and Race Across NYC
+To better understand why exactly more gun incidents occur in these areas, we need to examine additional datasets that highlight the economic situations of the population within those communities. Plotting descriptors such as unemployment rate, poverty, and community distrust on the map of community districts we can observe a striking similarity to the distribution of gun violence incidents. 
 
 <iframe src="/data/maps/other_maps.html" width="100%" height="600px"></iframe>
+
+We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this violence occurs within these communities themselves, with both perpetrators and victims typically belonging to the same demographic. This pattern aligns with sociological theories concerning the intraracial nature of crime and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
