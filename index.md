@@ -58,3 +58,10 @@ To better understand why exactly more gun incidents occur in these areas, we nee
     <iframe src="/data/confusion_matrix_interracial_shootings copy.html" width="100%" height="80%"></iframe>
   </div>
 </div>
+
+
+### References
+  <ol>
+    <li id="ref1">Smith, J. (2020) 'The Importance of HTML', <i>Journal of Web Development</i>, 15(3), pp. 24-30.</li>
+    <li id="ref2">Doe, A. (2021) 'Advanced CSS Techniques', <i>Design Magazine</i>, 12(7), pp. 45-50.</li>
+  </ol>
