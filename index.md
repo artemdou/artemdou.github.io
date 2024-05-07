@@ -83,4 +83,4 @@ The data reveals that while <b>shootings</b> in New York City have <b>generally 
 
 
 ### Explainer notebook
-The GitHub link to our explainer notebook is <a href="https://github.com/IoannisTselios/final_project_social_data/blob/main/Final.ipynb?fbclid=IwAR15LznPBVLaLA_PV5hVIsbR6BJ2tms_yNlO2qKI1UQ3G25umZoKGqSxkFQ">here</a>. The outputs have been deleted to coply with GitHub's file size requirements. 
+The GitHub link to our explainer notebook is <a href="https://github.com/IoannisTselios/final_project_social_data/blob/main/Final.ipynb?fbclid=IwAR15LznPBVLaLA_PV5hVIsbR6BJ2tms_yNlO2qKI1UQ3G25umZoKGqSxkFQ">here</a>. The outputs have been deleted to comply with GitHub's file size requirements. 
