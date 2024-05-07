@@ -81,6 +81,11 @@
             iframes[current].classList.remove('active');
             current = (current + step + iframes.length) % iframes.length;
             iframes[current].classList.add('active');
+
+            // Force reload of the iframe by resetting its 'src' attribute
+            let src = iframes[current].src;
+            iframes[current].src = '';
+            iframes[current].src = src;
         }
     </script>
 
