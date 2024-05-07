@@ -34,7 +34,7 @@ Turning our attention to the likely predominant factor behind many of 2020's cha
 ### Shootings Hotspots Accross Time: A Socio-Economic View
 
 <div style="text-align: justify;">
-Even though we have concluded that the spike of 2020 was an once-off extreme occurrence it still brough to light t the tight relation between the economical situation of the population and serious crime occurrences. When gun violence rose to these unprecedented levels the least privileged members of the city's landscape were gravelly and irreparably affected, allowing us to draw a generalized correlation between the financial and social conditions of a community and the number of shooting incidents within it. 
+Even though we have concluded that the spike of 2020 was an once-off extreme occurrence it still brough to light the tight relation between the economical situation of the population and serious crime occurrences. When gun violence rose to these unprecedented levels the least privileged members of the city's landscape were gravelly and irreparably affected, allowing us to draw a generalized correlation between the financial and social conditions of a community and the number of shooting incidents within it. 
 
 The figure bellow showcases how the concentration of these incidents remains quite stable over the years for some specific police precincts of Bronx, Brooklyn and Queens, communities known for their great minority populations concentration.
 </div>
