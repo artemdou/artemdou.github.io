@@ -7,48 +7,40 @@
     <style>
         .carousel {
             width: 100%;
+            /* Adjust this width as needed */
             overflow: visible;
-            /* Ensure this is set to visible */
+            /*hidden;*/
             margin: 20px auto;
             position: relative;
+            position: relative;
+            z-index: 1000;
             left: 50%;
             transform: translateX(-50%);
-            /* Check if this transform is necessary or causing issues */
-            z-index: 1000;
-        }
-
-
-        .carousel-slide {
-            display: flex;
-            align-items: center;
-            /* Align items vertically */
-            justify-content: space-between;
-            /* Space between text and iframe */
-            width: 100%;
-            /* Full width of the carousel */
-            display: none;
-            /* Initially hide all slides */
-            transition: all 0.5s;
-        }
-
-        .carousel-slide.active {
-            display: flex;
-            /* Only the active slide is displayed as flex */
-        }
-
-        .text-content {
-            flex: 1;
-            /* Text takes up half the space */
-            padding-right: 20px;
-            /* Space between text and iframe */
         }
 
         .carousel iframe {
-            flex: 2;
-            /* Iframe takes more space than text */
+            width: 100%;
+            /* This ensures that the iframe matches the container width */
+            /* Match this to the carousel width */
             height: 600px;
-            /* Adjust height as needed */
+            /* Adjust to the desired height */
+            display: none;
             border: none;
+            transition: all 0.5s;
+        }
+
+        .carousel,
+        .carousel iframe {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            /* display: block; */
+            /* visibility: hidden; */
+        }
+
+        .carousel iframe.active {
+            display: block;
+            /* visibility: visible; */
         }
 
         .arrow {
@@ -63,6 +55,7 @@
             padding: 10px;
         }
 
+
         .prev {
             left: 0px;
         }
@@ -74,56 +67,29 @@
 </head>
 
 <body>
+
     <div class="carousel">
         <button class="arrow prev" onclick="changeContent(-1)">&#10094;</button>
-
-        <!-- Slide 1 -->
-        <div class="carousel-slide active">
-            <div class="text-content">
-                <p>This is some introductory text about the monthly shootings per year. Here, we provide context or data
-                    insights.</p>
-            </div>
-            <iframe src="monthly_shootings_per_year.html" title="Monthly Shootings"></iframe>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-slide">
-            <div class="text-content">
-                <p>This is a description for the victim race distribution data. This text can elaborate on trends and
-                    data interpretation.</p>
-            </div>
-            <iframe src="victim_race_distribution.html" title="Victim Race Distribution"></iframe>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-slide">
-            <div class="text-content">
-                <p>This slide describes monthly layoffs, providing an analytical view and historical data comparison.
-                </p>
-            </div>
-            <iframe src="monthly_layoffs.html" title="Monthly Layoffs"></iframe>
-        </div>
-
+        <iframe src="monthly_shootings_per_year.html" class="active" title="External Content 2"></iframe>
+        <iframe src="victim_race_distribution.html" title="External Content 4"></iframe>
+        <iframe src="monthly_layoffs.html" title="External Content 3"></iframe>
         <button class="arrow next" onclick="changeContent(1)">&#10095;</button>
     </div>
 
     <script>
         let current = 0;
-        let slides = document.querySelectorAll('.carousel-slide');
-        let iframes = document.querySelectorAll('.carousel iframe'); // Select all iframes
+        let iframes = document.querySelectorAll('.carousel iframe');
 
         function changeContent(step) {
-            slides[current].classList.remove('active');
-            current = (current + step + slides.length) % slides.length;
+            iframes[current].classList.remove('active');
+            current = (current + step + iframes.length) % iframes.length;
+            iframes[current].classList.add('active');
 
-            setTimeout(() => {
-                let src = iframes[current].src;
-                iframes[current].src = '';
-                iframes[current].src = src;
-                slides[current].classList.add('active');
-            }, 100); // Adjust the timeout as needed to test different delays
+            // Force reload of the iframe by resetting its 'src' attribute
+            let src = iframes[current].src;
+            iframes[current].src = '';
+            iframes[current].src = src;
         }
-
     </script>
 
 </body>
