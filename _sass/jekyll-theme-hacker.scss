@@ -18,12 +18,15 @@ body {
   font-size: 20px;
   line-height: 1.5;
   font-family: sans-serif, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+
   h1 {
-    color: #0048ff;
+    color: #13BB72;
   }
+
   h2 {
-    color: #ff0000;
+    color: #5db28d;
   }
+
   iframe {
     border: none;
   }
@@ -108,7 +111,8 @@ section img {
 }
 
 // Clearfix Utility
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
   content: "";
   display: table;
 }
