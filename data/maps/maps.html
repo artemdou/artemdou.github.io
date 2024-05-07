@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shooting Incidents 2006 vs 2020 vs 2021</title>
+    <style>
+        #map-container {
+            width: 100%;
+            height: 600px;
+            margin: auto;
+            border: 2px solid black;
+            position: relative;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: none;
+        }
+        iframe.active {
+            display: block;
+        }
+        #toggle-container {
+            position: absolute;
+            bottom: 10px;
+            left: 50%; /* Center horizontally based on parent width */
+            transform: translateX(-50%); /* Adjust back to center the entire container */
+            z-index: 1000; /* Keep above the map */
+        }
+        .toggle-btn {
+            margin: 5px;
+            padding: 8px 12px;
+            cursor: pointer;
+            background-color: #808080; /* Gray shade */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        .toggle-btn.active {
+            background-color: #8fbc8f; /* Darker gray for the active button */
+            border: 2px solid #b0b0b0; /* Highlighting active button */
+        }
+    </style>
+</head>
+<body>
+
+<div id="map-container">
+    <div id="toggle-container">
+        <button id="btn-2006" class="toggle-btn" onclick="toggleMap('2006')">2006</button>
+        <button id="btn-2020" class="toggle-btn" onclick="toggleMap('2020')">2020</button>
+        <button id="btn-2021" class="toggle-btn" onclick="toggleMap('2021')">2021</button>
+    </div>
+    <iframe id="map-2006" src="shooting_incidents_2006.html"></iframe>
+    <iframe id="map-2020" src="shooting_incidents_2020.html"></iframe>
+    <iframe id="map-2021" src="shooting_incidents_2021.html"></iframe>
+</div>
+
+<script>
+    // Toggle between 2006, 2020, and 2021 maps
+    function toggleMap(year) {
+        // Remove active class from all iframes
+        document.getElementById('map-2006').classList.remove('active');
+        document.getElementById('map-2020').classList.remove('active');
+        document.getElementById('map-2021').classList.remove('active');
+        // Add active class to the selected year's iframe
+        document.getElementById('map-' + year).classList.add('active');
+
+        // Remove active class from all buttons
+        document.getElementById('btn-2006').classList.remove('active');
+        document.getElementById('btn-2020').classList.remove('active');
+        document.getElementById('btn-2021').classList.remove('active');
+        // Add active class to the selected year's button
+        document.getElementById('btn-' + year).classList.add('active');
+    }
+
+    // Initially set the 2006 map as active
+    toggleMap('2006');
+</script>
+
+</body>
+</html>

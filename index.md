@@ -18,4 +18,8 @@ This dataset provides a detailed look at shooting incidents in New York from 200
 
 ### Shooting "Hotspots" Accross Time
 
+<iframe src="/data/maps/maps.html" width="100%" height="600px"></iframe>
+
 ### Shootings, Poverty and Race Across NYC
+
+<iframe src="/data/maps/other_maps.html" width="100%" height="600px"></iframe>
