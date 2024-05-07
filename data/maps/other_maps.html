@@ -22,10 +22,12 @@
         }
         #toggle-container {
             position: absolute;
-            bottom: 10px;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 10px; /* Positioned at the center-left side */
+            top: 50%;
+            transform: translateY(-50%); /* Center the list vertically */
             z-index: 1000;
+            display: flex;
+            flex-direction: column; /* Arrange buttons vertically */
         }
         .toggle-btn {
             margin: 5px;
