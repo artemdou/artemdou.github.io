@@ -76,13 +76,18 @@ The data reveals that while <b>shootings</b> in New York City have <b>generally 
 ### Dataset Utilized
 1. <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data">NYPD Shooting Incident Data (Historic)</a>
 2. <a href="https://trends.google.com/trends/explore?cat=16&date=2020-01-01%202020-12-31&geo=US-NY-501&q=layoffs">Google Trends: Layoffs 2020</a>
+3. <a href="https://data.cccnewyork.org/data/table/97/total-population?fbclid=IwAR2v8QJeP_iLNLYQF2w21PxuhnMvIcpCzK8UhyITSC9IINTYKgB7nAI_PEQ#84/130/127/a/a"> Citizens Committee for Children of New York - Totla Population</a>
+4. <a href="https://data.cccnewyork.org/data/map/99/poverty?fbclid=IwAR2YGgDIP3ShXNVKEOWAP20yVgw5jz7fUcXaVGjp3HITsxayE66bdLY5J70#101/11/3/154/62/a/a"> Citizens Committee for Children of New York - Poverty</a>
+5. <a href="https://data.cccnewyork.org/data/map/85/unemployment-rate?fbclid=IwAR1LCh86FOWYxY-E8r-tsgtj8Jair311Ee5QkIGWaBBJ9IlJdrxMRYmkbIs#85/a/3/131/127/a/a"> Citizens Committee for Children of New York - Unemployment Rate</a>
+6. <a href="https://data.cccnewyork.org/data/table/1312/community-trust?fbclid=IwAR0J7CMG8WEDz-HC6FziJIt_ZNB_BZaZYvuNUXtZkkqlfzu3HRq8kLIffbQ#1312/1531/128/a/a"> Citizens Committee for Children of New York - Community Trust</a>
 
 
 ### Explainer notebook
-The GitHub link to our explainer notebook is here.
+The GitHub link to our explainer notebook is <a href="https://github.com/IoannisTselios/final_project_social_data/blob/main/Final.ipynb?fbclid=IwAR15LznPBVLaLA_PV5hVIsbR6BJ2tms_yNlO2qKI1UQ3G25umZoKGqSxkFQ">here</a>. The outputs have been deleted to coply with GitHub's file size requirements. 
 
 <hr>
-<br>
+
+
 ### Contridutions Table
 
 |                     | Artemis Doumeni (s234061)| Ioannis Tselios (s233516) | Mario Medoni (s204684) |
