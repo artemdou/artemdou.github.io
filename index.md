@@ -51,7 +51,7 @@ To better understand why exactly more gun incidents occur in these areas, we nee
 <div style="display: flex; text-align: justify; justify-content: space-between;">
   <div style="width: 300px; padding-right: 20px;">
     <p>
-      We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this violence occurs within these communities themselves, with both perpetrators and victims typically belonging to the same demographic. This pattern aligns with sociological theories concerning the intraracial nature of crime and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
+      We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this violence occurs within these communities themselves, with both perpetrators and victims typically belonging to the same demographic. This pattern aligns with sociological theories concerning the intraracial nature of crime<sup><a href="#ref2">2</a></sup> and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
     </p>
   </div>
   <div style="flex: 1;">
@@ -62,6 +62,6 @@ To better understand why exactly more gun incidents occur in these areas, we nee
 
 ### References
   <ol>
-    <li id="ref1">Smith, J. (2020) 'The Importance of HTML', <i>Journal of Web Development</i>, 15(3), pp. 24-30.</li>
-    <li id="ref2">Doe, A. (2021) 'Advanced CSS Techniques', <i>Design Magazine</i>, 12(7), pp. 45-50.</li>
+    <li id="ref1">Boman, J.H. and Gallupe, O., 2020. Has COVID-19 changed crime? Crime rates in the United States during the pandemic. American journal of criminal justice, 45, pp.537-545.</li>
+    <li id="ref2">Baker, R.S., 2022. The historical racial regime and racial inequality in poverty in the American South. American Journal of Sociology, 127(6), pp.1721-1781.</li>
   </ol>
