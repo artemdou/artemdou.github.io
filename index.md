@@ -81,4 +81,17 @@ The data reveals that while <b>shootings</b> in New York City have <b>generally 
 ### Explainer notebook
 The GitHub link to our explainer notebook is here.
 
+<hr>
+<br>
+### Contridutions Table
+
+|                     | Artemis Doumeni (s234061)| Ioannis Tselios (s233516) | Mario Medoni (s204684) |
+| ------------------- | --------------- | --------------- | ------------ |
+| Dataset Exploration | 15%             | 70%             | 15%          |
+| Website             | 15%             | 70%             | 15%          |
+| Story               | 70%             | 0%              | 30%          |
+| Jupyter Notebook    | 10%             | 50%             | 40%          |
+| Time series plots   | 80%             | 0%              | 20%          |
+| Map plots           | 10%             | 10%             | 80%          |
+
 
