@@ -51,6 +51,6 @@ To better understand why exactly more gun incidents occur in these areas, we nee
     </p>
   </div>
   <div style="flex: 1;">
-    <iframe src="/data/confusion_matrix_interracial_shootings copy.html" width="100%" height="100%"></iframe>
+    <iframe src="/data/confusion_matrix_interracial_shootings copy.html" width="100%" height="80%"></iframe>
   </div>
 </div>
