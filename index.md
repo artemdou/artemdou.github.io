@@ -15,7 +15,7 @@ layout: default
 
 ### 2020: A Time of Generalized Unrest
 
-<iframe src="/data/carousel.html" width="100%" height="600px" frameborder="0"></iframe>
+<iframe src="/data/carousel.html" width="100%" height="600px"></iframe>
 
 
 <div style="text-align: justify;">
