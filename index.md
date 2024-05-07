@@ -69,3 +69,13 @@ The data reveals that while shootings in New York City have generally declined, 
     <li id="ref1">Boman, J.H. and Gallupe, O., 2020. Has COVID-19 changed crime? Crime rates in the United States during the pandemic. American journal of criminal justice, 45, pp.537-545.</li>
     <li id="ref2">Baker, R.S., 2022. The historical racial regime and racial inequality in poverty in the American South. American Journal of Sociology, 127(6), pp.1721-1781.</li>
   </ol>
+
+### Dataset Utilized
+1. <a href="(https://data.cityofnewyork.us/Public-Safety/NYPD-Shooting-Incident-Data-Historic-/833y-fsy8/about_data)">NYPD Shooting Incident Data (Historic)</a>
+2. <a href="(https://trends.google.com/trends/explore?cat=16&date=2020-01-01%202020-12-31&geo=US-NY-501&q=layoffs)">Google Trends: Layoffs 2020</a>
+
+
+### Explainer notebook
+The GitHub link to our explainer notebook is here.
+
+
