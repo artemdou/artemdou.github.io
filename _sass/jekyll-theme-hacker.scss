@@ -1,0 +1,122 @@
+@import "rouge-base16-dark";
+@import "default_colors";
+
+// Variables
+$body-background: #000000 !default;
+$body-foreground: $gallery !default;
+$header-background: url("/assets/images/new-york.jpeg") no-repeat center center / cover;
+$header-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+$container-max-width: 900px; // Adjust based on your layout
+$page-side-padding: 20px;
+
+// General Body Styling
+body {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: sans-serif, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  h1 {
+    color: #0048ff;
+  }
+  h2 {
+    color: #ff0000;
+  }
+  iframe {
+    border: none;
+  }
+}
+
+// Header Section
+header {
+  background: $header-background;
+  width: 100%;
+  padding: 350px 0; // Adjusted padding to increase header size
+  margin-bottom: 40px;
+  color: white;
+  text-shadow: $header-text-shadow;
+  position: relative;
+
+  // Overlay for text visibility
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding-left: $page-side-padding;
+    padding-right: $page-side-padding;
+  }
+
+  h1 {
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: $conifer;
+    text-shadow: $header-text-shadow;
+    margin: 0 0 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+
+  #downloads .btn {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  #a-title {
+    text-decoration: none;
+  }
+}
+
+
+// Main Content
+#main_content {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding-left: $page-side-padding;
+  padding-right: $page-side-padding;
+}
+
+section {
+  display: block;
+  margin-bottom: 20px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+// Clearfix Utility
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}

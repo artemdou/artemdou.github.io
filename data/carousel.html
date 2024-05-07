@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Embedded HTML Carousel</title>
+    <style>
+        .carousel {
+            width: 100%;
+            /* Adjust this width as needed */
+            overflow: visible;
+            /*hidden;*/
+            margin: 20px auto;
+            position: relative;
+            position: relative;
+            z-index: 1000;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .carousel iframe {
+            width: 100%;
+            /* This ensures that the iframe matches the container width */
+            /* Match this to the carousel width */
+            height: 600px;
+            /* Adjust to the desired height */
+            display: none;
+            border: none;
+            transition: all 0.5s;
+        }
+
+        .carousel,
+        .carousel iframe {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .carousel iframe.active {
+            display: block;
+        }
+
+        .arrow {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            padding: 10px;
+        }
+
+
+        .prev {
+            left: 0px;
+        }
+
+        .next {
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="carousel">
+        <button class="arrow prev" onclick="changeContent(-1)">&#10094;</button>
+        <iframe src="monthly_shootings_per_year.html" class="active" title="External Content 2"></iframe>
+        <iframe src="shootings_by_year.html" title="External Content 1"></iframe>
+        <iframe src="monthly_layoffs.html" title="External Content 3"></iframe>
+        <iframe src="victim_race_distribution.html" title="External Content 4"></iframe>
+        <iframe src="confusion_matrix_interracial_shootings.html" title="External Content 5"></iframe>
+        <button class="arrow next" onclick="changeContent(1)">&#10095;</button>
+    </div>
+
+    <script>
+        let current = 0;
+        let iframes = document.querySelectorAll('.carousel iframe');
+
+        function changeContent(step) {
+            iframes[current].classList.remove('active');
+            current = (current + step + iframes.length) % iframes.length;
+            iframes[current].classList.add('active');
+        }
+    </script>
+
+</body>
+
+</html>
