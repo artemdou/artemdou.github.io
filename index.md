@@ -43,4 +43,14 @@ To better understand why exactly more gun incidents occur in these areas, we nee
 
 <iframe src="/data/maps/other_maps.html" width="100%" height="600px"></iframe>
 
-We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this violence occurs within these communities themselves, with both perpetrators and victims typically belonging to the same demographic. This pattern aligns with sociological theories concerning the intraracial nature of crime and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
+<br>
+<div style="display: flex; text-align: justify; justify-content: space-between;">
+  <div style="width: 300px; padding-right: 20px;">
+    <p>
+      We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this violence occurs within these communities themselves, with both perpetrators and victims typically belonging to the same demographic. This pattern aligns with sociological theories concerning the intraracial nature of crime and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <iframe src="/data/confusion_matrix_interracial_shootings copy.html" width="100%" height="100%"></iframe>
+  </div>
+</div>
