@@ -34,15 +34,15 @@ Turning our attention to the likely predominant factor behind many of 2020's cha
 ### Shootings Hotspots Accross Time: A Socio-Economic View
 
 <div style="text-align: justify;">
-Even though we have concluded that the spike of 2020 was an once-off extreme occurrence it still brough to light the tight relation between the economical situation of the population and serious crime occurrences. When gun violence rose to these unprecedented levels the least privileged members of the city's landscape were gravelly and irreparably affected, allowing us to draw a generalized correlation between the financial and social conditions of a community and the number of shooting incidents within it. 
+Even though we have concluded that the <b>spike of 2020</b> was an <b>once-off extreme occurrence</b> it still brough to light the tight relation between the economical situation< of the population and serious crime occurrences. When gun violence rose to these unprecedented levels the least privileged members of the city's landscape were gravelly and irreparably affected, allowing us to draw a generalized correlation between the <b>financial and social conditions</b> of a community and the <b>number of shooting incidents</b> within it. 
 
-The figure bellow showcases how the concentration of these incidents remains quite stable over the years for some specific police precincts of Bronx, Brooklyn and Queens, communities known for their great minority populations concentration.
+The figure bellow showcases how the <b>concentration</b> of these incidents remains quite <b>stable over the years</b> for some specific police precincts of <b>Bronx, Brooklyn and Queens</b>, communities known for their great <b>minority</b> populations concentration.
 </div>
 
 <iframe src="/data/maps/maps.html" width="100%" height="600px"></iframe>
 
 <div style="text-align: justify;">
-To better understand why exactly more gun incidents occur in these areas, we need to examine additional datasets that highlight the economic situations of the population within those communities. Plotting descriptors such as unemployment rate, poverty, and community distrust on the map of community districts we can observe a striking similarity to the distribution of gun violence incidents. 
+To better understand why exactly more gun incidents occur in these areas, we need to examine <b>additional datasets</b> that highlight the <b>economic situations</b> of the population within those communities. Plotting descriptors such as unemployment rate, poverty, and community distrust on the map of community districts we can observe a striking <b>similarity</b> to the <b>distribution of gun violence</b> incidents. 
 </div>
 
 <iframe src="/data/maps/other_maps.html" width="100%" height="600px"></iframe>
@@ -51,7 +51,7 @@ To better understand why exactly more gun incidents occur in these areas, we nee
 <div style="display: flex; text-align: justify; justify-content: space-between;">
   <div style="width: 300px; padding-right: 20px;">
     <p>
-      We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this violence occurs within these communities themselves, with both perpetrators and victims typically belonging to the same demographic. This pattern aligns with sociological theories concerning the intraracial nature of crime<sup><a href="#ref2">2</a></sup> and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
+      We observe that economically disadvantaged communities, which often exhibit higher rates of gun violence, also tend to have a high concentration of minority populations. The correlation between poverty and gun violence leads to the expectation that most of this <b>violence</b> occurs <b>within these communities</b> themselves, with both perpetrators and victims typically belonging to the <b>same demographic</b>. This pattern aligns with sociological theories concerning the intraracial nature of crime<sup><a href="#ref2">2</a></sup> and underscores the contemporary repercussions of segregation and the historical poverty of minority communities in the United States.
     </p>
   </div>
   <div style="flex: 1;">
@@ -61,7 +61,7 @@ To better understand why exactly more gun incidents occur in these areas, we nee
 
 ### Conclusion
 <div style="text-align: justify;">
-The data reveals that while shootings in New York City have generally declined, the abrupt spike in 2020 underscores the significant socio-economic impact of the COVID-19 pandemic and widespread unrest. The data also highlights a persistent correlation between gun violence and economically disadvantaged communities, particularly affecting minority populations. Addressing this issue requires a concerted focus on alleviating economic disparities to break the cycle of violence and foster safer neighborhoods.
+The data reveals that while <b>shootings</b> in New York City have <b>generally declined</b>, the abrupt <b>spike in 2020</b> underscores the significant <b>socio-economic impact of the COVID-19 pandemic</b> and widespread unrest. The data also highlights a persistent <b>correlation</b> between gun violence and <b>economically disadvantaged communities</b>, particularly affecting <b>minority</b> populations. Addressing this issue requires a concerted focus on alleviating economic disparities to break the cycle of violence and foster safer neighborhoods.
 </div>
 <br>
 
