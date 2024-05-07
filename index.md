@@ -27,7 +27,8 @@ To explore whether the <b>Black Lives Matter</b> protests <b>influenced</b> the 
 Turning our attention to the likely predominant factor behind many of 2020's challenges, COVID-19, considering the <b>pandemic's broader impact</b>, which includes a global <b>increase in serious crimes</b><sup><a href="#ref1">1</a></sup>. Although definitive conclusions are difficult, the <b>trends in gun violence</b> appear to <b>align</b> with those of another pandemic-related issue: <b>layoffs</b>. Google search trends for 'layoffs' in New York City peaked in May and August of 2020, with the initial surge beginning in March, <b>mirroring</b> the timing of increased shootings and coinciding with the first lockdowns. The decline in searches during June and July aligns with the typical slowdown in business activity during the summer months.
 </div>
 
-<iframe src="/data/carousel.html" width="100%" height="600px"></iframe>
+<iframe src="/data/carousel.html" width="100%" height="600px" frameborder="0"></iframe>
+
 
 
 
